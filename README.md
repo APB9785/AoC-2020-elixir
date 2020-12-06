@@ -2,7 +2,7 @@
 
 ### Day 1  
 Part 1: Reading + parsing text files  
-Part 2: List processing
+Part 2: Partial function application, list processing
 
 ### Day 2  
 Part 1: String processing, data validation  
