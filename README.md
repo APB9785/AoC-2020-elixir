@@ -1,7 +1,7 @@
 # Advent of Code 2020
 
 ### Day 1  
-Part 1: Reading + parsing text files
+Part 1: Reading + parsing text files  
 Part 2: List processing
 
 ### Day 2  
