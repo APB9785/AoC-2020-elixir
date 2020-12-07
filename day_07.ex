@@ -22,8 +22,7 @@ defmodule Day7 do
     |> Integer.to_string
   end
 
-  def main_2(dict, bag \\ "shiny gold")
-  def main_2(dict, bag) do
+  def main_2(dict, bag \\ "shiny gold") do
     case dict[bag] do
       [{:empty}] ->
         0
