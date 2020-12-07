@@ -9,7 +9,7 @@ Part 1: String processing, data validation
 Part 2: Conditional logic, list processing
 
 ### Day 3  
-Part 1: Recursion, modular arithmetic  
+Part 1: Modular arithmetic  
 Part 2: Functional programming fundamentals
 
 ### Day 4  
