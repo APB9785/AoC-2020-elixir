@@ -30,18 +30,18 @@ defmodule Day10 do
     Integer.to_string(ones * threes)
   end
 
-  def main_2(input, cache \\ %{0 => 1}, prev \\ [0], count \\ 1)
-  def main_2([], cache, _prev, _count) do
+  def main_2(input, cache \\ %{0 => 1}, prev \\ [0], idx \\ 1)
+  def main_2([], cache, _prev, _idx) do
     final_key = Enum.max(Map.keys(cache))
 
     cache[final_key] |> Integer.to_string
   end
-  def main_2([h | t], cache, prev, count) do
+  def main_2([h | t], cache, prev, idx) do
     new_prev = Enum.filter(prev, &(h - &1 <= 3))
-    new_val = Enum.reduce(1..length(new_prev), 0, &(&2 + cache[count - &1]))
-    new_cache = Map.put(cache, count, new_val)
+    new_val = Enum.reduce(1..length(new_prev), 0, &(&2 + cache[idx - &1]))
+    new_cache = Map.put(cache, idx, new_val)
 
-    main_2(t, new_cache, [h | new_prev], count + 1)
+    main_2(t, new_cache, [h | new_prev], idx + 1)
   end
 
   defp header() do
