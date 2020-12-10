@@ -27,3 +27,10 @@ Part 2: Use a Hashmap to store and compare character frequency
 ### Day 7  
 Part 1: Parse tree-like data into a Hashmap  
 Part 2: Traverse + count nodes recursively
+
+### Day 9   
+Parts 1 & 2: List processing
+
+### Day 10   
+Part 1: List processing   
+Part 2: Dynamic programming
