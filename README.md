@@ -34,3 +34,6 @@ Parts 1 & 2: List processing
 ### Day 10   
 Part 1: List processing   
 Part 2: Dynamic programming
+
+### Day 11
+Parts 1 & 2: Simulate 2-D cellular automata until convergence
