@@ -37,3 +37,11 @@ Part 2: Dynamic programming
 
 ### Day 11
 Parts 1 & 2: Simulate 2-D cellular automata until convergence
+
+### Day 16   
+Part 1: Text parsing   
+Part 2: Data validation, deductive logic   
+
+### Day 17
+Part 1: Simulate 3-D cellular automaton   
+Part 2: Simulate 4-D cellular automaton
